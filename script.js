@@ -13,18 +13,18 @@ console.log(fullPrice + "₽");
 console.log(screens.toLowerCase().split(", "));
 console.log(fullPrice * (rollback / 100));
 
-// title = prompt('Как называется ваш проект?');
-// console.log(title);
-// screens = prompt('Какие типы экранов нужно разрабатывать?');
-// console.log(screens);
+title = prompt('Как называется ваш проект?');
+console.log(title);
+screens = prompt('Какие типы экранов нужно разрабатывать?');
+console.log(screens);
 screenPrice = +prompt('Сколько будет стоить данная работа?');
 console.log(screenPrice);
-// adaptive = confirm('Нужен ли адаптив на сайте?');
-// console.log(adaptive);
+adaptive = confirm('Нужен ли адаптив на сайте?');
+console.log(adaptive);
 
-// let service1 = prompt('Какой дополнительный тип услуги нужен?');
+let service1 = prompt('Какой дополнительный тип услуги нужен?');
 let servicePrice1 = +prompt('Сколько это будет стоить?');
-// let service2 = prompt('Какой дополнительный тип услуги нужен?');
+let service2 = prompt('Какой дополнительный тип услуги нужен?');
 let servicePrice2 = +prompt('Сколько это будет стоить?');
 
 fullPrice = screenPrice + servicePrice1 + servicePrice2;
